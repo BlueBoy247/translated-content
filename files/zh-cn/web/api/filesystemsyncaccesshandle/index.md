@@ -2,7 +2,7 @@
 title: FileSystemSyncAccessHandle
 slug: Web/API/FileSystemSyncAccessHandle
 l10n:
-  sourceCommit: f10fbe2d2dc4857bf29ce955689a7ba7c1ffac8b
+  sourceCommit: d8f04d843dd81ab8cea1cfc0577ae3c5c9b77d5c
 ---
 
 {{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers("dedicated")}}
@@ -15,7 +15,8 @@ l10n:
 
 这个接口通过 {{domxref('FileSystemFileHandle.createSyncAccessHandle()')}} 方法来访问。
 
-> **备注：** 在规范早期版本中，{{domxref("FileSystemSyncAccessHandle")}} 的 {{domxref("FileSystemSyncAccessHandle.close()", "close()")}}、{{domxref("FileSystemSyncAccessHandle.flush()", "flush()")}}、{{domxref("FileSystemSyncAccessHandle.getSize()", "getSize()")}} 和 {{domxref("FileSystemSyncAccessHandle.truncate()", "truncate()")}} 被错误地规定为异步方法。某些浏览器的旧版本是依照异步方式来实现这些方法的，不过，现今所有支持这些方法的浏览器都将它们实现为同步方法。
+> [!NOTE]
+> 在规范早期版本中，{{domxref("FileSystemSyncAccessHandle")}} 的 {{domxref("FileSystemSyncAccessHandle.close()", "close()")}}、{{domxref("FileSystemSyncAccessHandle.flush()", "flush()")}}、{{domxref("FileSystemSyncAccessHandle.getSize()", "getSize()")}} 和 {{domxref("FileSystemSyncAccessHandle.truncate()", "truncate()")}} 被错误地规定为异步方法。某些浏览器的旧版本是依照异步方式来实现这些方法的，不过，现今所有支持这些方法的浏览器都将它们实现为同步方法。
 
 ## 实例属性
 

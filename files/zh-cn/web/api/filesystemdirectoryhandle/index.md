@@ -2,7 +2,7 @@
 title: FileSystemDirectoryHandle
 slug: Web/API/FileSystemDirectoryHandle
 l10n:
-  sourceCommit: be3c45cd7a4d5c04139eceae10f7368251cdca64
+  sourceCommit: e92950d09467164afc9dfd8b35be9c909b63a8ab
 ---
 
 {{securecontext_header}}{{APIRef("File System API")}}{{AvailableInWorkers}}
@@ -40,7 +40,7 @@ _从父接口 {{DOMxRef("FileSystemHandle")}} 继承方法。_
   - : 返回一个新的迭代 `FileSystemDirectoryHandle` 对象内每个条目的键的异步迭代器。
 - {{domxref('FileSystemDirectoryHandle.values()')}}
   - : 返回一个新的迭代 `FileSystemDirectoryHandle` 对象内每个条目的句柄的异步迭代器。
-- `FileSystemDirectoryHandle[@@asyncIterator]()`
+- `FileSystemDirectoryHandle[Symbol.asyncIterator]()`
   - : 返回给定对象自己的可枚举属性的 `[key, value]` 对的新*异步迭代器*。
 
 ## 示例
